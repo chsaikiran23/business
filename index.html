@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+
+ <button onclick="topFunction()" id="myBtn" title="Go to Top">Top</button>
+ 
+   <nav id="desktop-nav">
+      <div class="logo">
+        The New Future
+        <img src="./logo.png" width="150px" />
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        The New Future
+        <img src="./logo.png" width="150px" />
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#services" onclick="toggleMenu()">Services</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="home">
+      <div class="section_text">
+        <img src="./nf.jpeg"  alt="background image">
+        <p class="section_text_p1">Welcome to Tomorrow's World</p>
+        <h1 class="title">The New Future</h1>
+        <p class="section_text_p2">
+          Come join us to build a new future together
+        </p>
+        <div class="btn-container"> 
+        <button onclick="alert(`Thank you for Joinning`)" class="btn-color-1">Join Now</button>
+        
+      </div>
+      </div>
+    </section>
+    <section id="about">
+      <img id="about-pic" src="./worldmap.jpeg" width="350px" alt="about">
+      <div class="sec_text">
+        <h3 class="h3">About Us </h3>
+        <p class="sec_text_p1">New Future is a cutting-edge AI and ML technology company poised to revolutionize various industries. Founded by a team of experienced AI and ML experts, New Future is committed to developing innovative solutions that address real-world challenges and improve people's lives. The company's focus lies in utilizing AI and ML to enhance decision-making, automate tasks, and personalize experiences. </p>
+          <h4 class="h4"><b>New Future's Vision: </b></h4>
+
+          <p>New Future envisions a world where AI and ML are seamlessly integrated into everyday life, empowering individuals and organizations to achieve their full potential. The company believes that AI and ML have the power to transform industries, making them more efficient, productive, and customer-centric.</p>
+  <br> 
+         <h4> New Future leverages a wide range of AI and ML technologies, including:</h4>
+          <ol>
+            <li>Machine learning</li>
+            <li>Natural language processing</li>
+            <li>Computer vision</li>
+            <li> Deep learning</li>
+            <li> Reinforcement learning</li>
+          </ol>       
+        
+      </div>
+
+    </section>
+    <section id="services">
+      <img id="services-pic" src="./logo.png" alt=""> 
+     
+      <div class="sec_text1"> <h2><b>Our Services</b></h2> 
+        
+          <h3>Industry Applications</h3>
+          <p class="sec_text1_p1">
+<h4><i>New Future's AI and ML solutions have the potential to transform various industries, including:</i></h4>
+<ol>
+  <li>1. Healthcare: AI can be used to improve clinical decision-making, diagnose diseases more accurately, and develop personalized treatment plans.</li>
+  <li>2. Finance: AI can be used to detect fraud, manage risk, and personalize financial products and services.</li>
+  <li>3. Retail: AI can be used to personalize customer experiences, optimize inventory management, and improve supply chain efficiency.</li>
+  <li>4. Manufacturing: AI can be used to automate tasks, optimize production processes, and predict equipment failures.</li>
+  <li>5. Transportation: AI can be used to develop self-driving cars, optimize traffic flow, and improve public transportation systems.</li>
+</ol>
+
+<h2 class="IS"><b>Impact on Society</b></h2>
+
+<h3 class="text22"><b>New Future's AI and ML solutions have the potential to positively impact society in several ways, including:</b></h3>
+<ol>
+  <li>Improved decision-making: AI can help individuals and organizations make better decisions by providing insights from vast amounts of data.</li>
+  <li>Increased efficiency: AI can automate tasks and streamline processes, freeing up time for more valuable activities.</li>
+  <li>Personalized experiences: AI can tailor products, services, and information to individual needs and preferences.</li>
+  <li>Enhanced safety: AI can detect anomalies, predict risks, and prevent accidents.</li>
+  <li></li>
+
+</ol>
+New Future is at the forefront of the AI and ML revolution, developing innovative solutions that have the potential to make a real difference in the world. The company's commitment to ethical and responsible AI development ensures that its solutions are used for the benefit of humanity. As AI and ML continue to evolve, New Future is poised to play an increasingly important role in shaping the future.          
+        </p>
+      </div>
+    </section>
+    
+    </section>
+    <section id="contact">
+      <h1 class="title2">Contact US</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:nf@gmail.com">MAIL</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169;2023 THE-NEW-FUTURE. All Rights Reserved.</p>
+    </footer>
+  <!--  <div id="scrollUp" >
+    <i class="fa fa-angle-up"> 
+-->
+    </i>
+  </div>
+    <script src="main.js"></script>
+  </body>
+</html>
